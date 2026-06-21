@@ -1,0 +1,17 @@
+{
+  "name": "sms-kavach",
+  "version": "1.0.0",
+  "description": "SMS Kavach - SMS Spam Detection System",
+  "scripts": {
+    "backend": "cd . && python python.py",
+    "frontend": "cd SMSKavach && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "android": "cd SMSKavach && npm run android",
+    "ios": "cd SMSKavach && npm run ios",
+    "web": "cd SMSKavach && npm run web"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "private": true
+}
